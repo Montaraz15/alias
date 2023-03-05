@@ -15,11 +15,6 @@ function toLower(){
 function info(){
 	printf "This is a script to guide you throught the configuration of the commons aliases. This script will create or append .bash_aliases"
 	printf "You'll prompt to insert the default path to the quick commands. If the path doesn't exist, it will be created. \n"
-#		printf "Enter something to lowecase:"
-#		read -r lower
-#	toLower="$(tr [A-Z] [a-z] <<< "$toLower")"
-#		toLower lower
-#		echo $lower
 }
 
 function checkPathCreatePath(){
